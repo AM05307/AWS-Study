@@ -1,0 +1,111 @@
+Section2 - 8. AWS - 10,000 Foot Overview Part 4
+
+{Security & Identity & Compliance}
+-Cognito 
+  mobile app social login
+
+-GuardDuty
+  2017년 발표
+
+- Inspecotr
+ on virtual machine
+
+- Macie
+ scan your S-3 buckets and look for thins that would contain a personally identifiable information or pay 
+ ex) name, credit card detail
+
+- Certificate Manager
+ you get SSL certificates for free if you using AWS and you registering the domains through route S3
+ => a way of managing your SSL certificates
+
+- CloudHSM *high level
+ you use this keys to access your EC2 instances, you can also store other encryption keys in there.
+ => hardware security module
+
+- Directory Service *high level (출제된적 없음)
+ a way of intergrating(통합) your Microsoft active directory services with AWS service
+
+- WAF ; web application firewall
+
+- Shield 
+ you get if by default for a whole bunch of diffrent AWS(?)
+=> didos mitigation(완화). It helps to prevent DDOS attacks
+
+- Artifact
+ it's a portal for On-Demand(주문형) access to download
+ it's a way of downloading and inspecting Amazon's documentation.
+
+{Mobile Sevices}
+ - Mobile Hub (기출x)
+  management consol
+
+ - Pinpoint (very new service)(기출x)
+  a way of using targeted push notifications to drive mobile engagement(맞물림,계약)
+ ex) 사용자 근처 레스토랑 할인쿠폰 공지 기능 지원
+
+ - AppSync(기출x)
+ 웹,모바일,오프라인 유저(reconnect 했을때)의 data 동기화  
+  It's a great way of watching content online
+ ex) 비행기, 기차등에서의 app사용을 가능하게 함 
+
+-  Device Farm (기출x)
+  a way of actually testing your apps on real live devices 
+
+- Mobile Analytics (기출x)
+ analytic service for mobiles
+
+{AR/VR} (기출x)
+ launched at 2017 goes under the code name Samarian 
+
+{Application Integration}
+- Step Functions (기출x)
+- Amazon MQ (기출x)
+  a way of doing message queues(열)
+- SNS 
+  notification service, billing alarm
+- SQS
+  launched in 2006  
+  decoupling your infrastructure(하부구조). 
+- SWF
+  Amazon actually used this in their warehouses 
+
+{Customer Engagement}
+- Connect(기출x)
+  it is a contact center as a service
+- Simple Email Sevice (기출o)
+  It's a great way of sending large amounts of emails highly scalable very cost effective
+
+{Business Productivity}
+- Alexa For Business(기출x)
+- Chime 
+ 화상회의; video conferencing
+- Work Docs 
+ Docs is essentially like a Dropbox for AWS
+- WorkMail
+  This is sort of like Office 365
+
+{Desktop & App Streaming}
+- Workspaces(기출x)
+  VDI solution;데스크톱가상화(VDI, Virtual Desktop Infrastructure)
+
+- AppStream 2.0(기출x)
+  a way of streaming the actual applications
+ only AWS service 
+
+{Internet Of Things} (기출x)
+- IoT
+- IoT Device Management
+ IoT 장비들의 보내는 정보를 관리 
+- Amazon FreeRTOS
+ operating system for your microcontroller
+- Greengrass
+ marchine learning data sync
+
+{Game Development}
+- GameLift (기출x)
+ a way of it's a service to help you develop games and these can be virtual reality games as well
+  
+
+
+
+ 
